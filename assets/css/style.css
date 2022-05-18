@@ -123,3 +123,18 @@ body{
     text-align: center;
     border-top: 3px white;
 }
+#social a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+#social{
+    display: flex;
+    margin-left: 50%;
+    
+}
+#form{
+    margin-left:50%
+}
+    
