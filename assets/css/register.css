@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+/* body color  */
+body{
+    background-color: #000;
+}
+
+/* registration  */
+.register{
+    display: flex;
+    margin: 1em 0;
+}
+
+/* signup and login  */
+.register .signUp, .register .login{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em;
+    padding: 1em;
+    width: 50%;
+    height: 78vh;
+}
+
+
+.register .signUp{
+    background-color: #c2a525;
+    color: #000;
+}
+.register .login{
+    background-color: #000;
+    color: #c2a525;
+}
+
+/* headers */
+.register .signUp h1, .register .login h1{
+    letter-spacing: .214em;
+    text-transform: uppercase;
+}
+
+/* inputs  */
+.register .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+}
+
+/* signup inputs  */
+.register .signUp .inputs .input{
+    background: none;
+    width: 70%;
+    margin: .3em 0;
+    padding: .3em;
+    border: none;
+    border-bottom: .13em solid #000000;
+    border-radius: .13em;
+
+    transition: all .3s;
+}
+
+.register .signUp .inputs .input::placeholder{
+    color: #000000;
+    letter-spacing: .134em;   
+    transition: all .3s;
+}
+
+.register .signUp .inputs .input:hover::placeholder{
+    color: #c2a525;
+}
+.register .signUp .inputs .input:hover,
+.register .signUp .inputs .input:active,
+.register .signUp .inputs .input:focus{
+    outline: none;
+    border-bottom: .13em solid #fff;
+    caret-color: #000;
+}
+
+/* login  inputs*/
+.register .login .inputs .input{
+    background: none;
+    width: 70%;
+    margin: .3em 0;
+    padding: .3em;
+    border: none;
+    border-bottom: .13em solid #c2a525;
+    border-radius: .13em;
+
+    transition: all .3s;
+}
+
+.register .login .inputs .input::placeholder{
+    color: #c2a525;
+    letter-spacing: .134em;   
+    transition: all .3s;
+}
+
+.register .login .inputs .input:hover::placeholder{
+    color: #000;
+}
+.register .login .inputs .input:hover,
+.register .login .inputs .input:active,
+.register .login .inputs .input:focus{
+    outline: none;
+    border-bottom: .13em solid #fff;
+    caret-color: #000;
+}
+
+
+/* button  */
+.register .button{
+    display: flex;
+    place-content: center;
+    width: 70%;
+    transition: all .3s;
+}
+.register .button button{
+    background: #000;
+    border: none;
+    border-radius: .13em;
+    padding: .3em;
+    color: #c2a525;
+    padding: 0.234em 0.632em;
+    letter-spacing: .0134em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* font-size: .8em; */
+}
+.register .login .button button{
+    background: #c2a525;
+   
+    color: #000;
+    
+}
