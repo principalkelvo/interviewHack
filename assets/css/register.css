@@ -77,7 +77,6 @@ body{
 .register .signUp .inputs .input:focus{
     outline: none;
     border-bottom: .13em solid #fff;
-    caret-color: #000;
 }
 
 /* login  inputs*/
@@ -90,6 +89,7 @@ body{
     border-bottom: .13em solid #c2a525;
     border-radius: .13em;
     color: #c2a525;
+    caret-color: #c2a525;
 
     transition: all .3s;
 }
@@ -108,7 +108,9 @@ body{
 .register .login .inputs .input:focus{
     outline: none;
     border-bottom: .13em solid #fff;
-    caret-color: #000;
+    caret-color: #c2a525;
+
+
 }
 
 
