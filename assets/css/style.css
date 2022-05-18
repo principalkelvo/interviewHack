@@ -52,8 +52,9 @@ body{
 }
 .offer button{
     margin-left: 10%;
-    width: 30%;
-    height:50%;
-    color: brown;
+    width: 300px;
+    height:200px;
+    
+    border:2px solid #c2a525;
 
 }
