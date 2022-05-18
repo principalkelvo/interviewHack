@@ -1,0 +1,90 @@
+*{
+font-size: 24px;
+}
+.one{
+    height: 20em;
+    width: 100%;
+    color: #c2a525;
+    background-color: #000;
+}
+.two{
+    height: 10em;
+    width: 100%;
+    color: #000;
+    background-color: #c2a525;
+}
+.three{
+    height: 20em;
+    width: 100%;
+    color: #c2a525;
+    background-color: #000;
+}
+.four{
+    height: 20em;
+    width: 100%;
+    color: #000;
+    background-color: #c2a525;
+}
+#fisrt{
+    width: 10em;
+    height: 3;
+    background-color: #c2a525;
+}
+#second{
+    width: 10em;
+    height: 3;
+    background-color: #000;
+}
+#third{
+    width: 10em;
+    height: 3;
+    background-color: #c2a525;
+}
+#fourth{
+    width: 10em;
+    height: 3;
+    background-color: #000;
+}
+#team{
+    color: #c2a525;
+    text-align: center;
+}
+#client{
+    color: #000;
+    text-align: center;
+}
+#testimony{
+    color: #c2a525;
+    text-align: center;
+}
+#why{
+    color: #000;
+    text-align: center;
+}
+#teamImages{
+    display: flex;
+    margin-left: 5em;
+}
+.desc > img{
+    height: 10em;
+}
+#name{
+    text-align: left;
+    margin-top: 0.5em;
+}
+#par{
+    text-align: left;
+    margin-top: -1em;
+}
+#test{
+    float: right;
+    margin-right: 20em;
+}
+#testify{
+    height: 5em;
+    padding: 5;
+    margin-left: 20em;
+}
+.icons{
+    display: flex;
+}
