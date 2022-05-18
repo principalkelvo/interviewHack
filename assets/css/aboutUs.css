@@ -1,8 +1,8 @@
 *{
     padding: 0;
-font-size: 24px;
-box-sizing: border-box;
-font-family: 'Inter',sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
 }
 body{
     background-color: #000;
@@ -31,10 +31,9 @@ body{
 /*Our Team section styling*/
 .one{
     height: 24em;
-    width: 100%;
+    width: 100vw;
     color: #c2a525;
     background-color: #000;
-    margin: 2em;
 
 }
 #fisrt{
@@ -82,7 +81,7 @@ body{
 /*Our Clients section styling*/
 .two{
     height: 10em;
-    width: 100%;
+    width: 100vw;
     color: #000;
     background-color: #c2a525;
 }
@@ -112,7 +111,7 @@ body{
 /*Testimonials section styling*/
 .three{
     height: 30em;
-    width: 100%;
+    width: 100vw;
     color: #c2a525;
     background-color: #000;
 }
