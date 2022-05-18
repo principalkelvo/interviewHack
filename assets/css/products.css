@@ -17,7 +17,7 @@ body{
     height: 25.753em;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.733);
     border-radius: 20px;
 }
 
@@ -48,13 +48,21 @@ h3{
     padding-top: 3.7em;
 }
 
+img {
+    transition: o.5s, ease-in;
+    border-radius: 25px;
+}
+img:hover {
+    width: 300px;
+    height: 220px;
+}
 
 
 .grid-container1{
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 50px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 
@@ -62,67 +70,66 @@ h3{
 .griditem1{
     height: 8.25em;
     width: 15.25em;
-    border-radius: 20px;
 }
-
-
-
-.griditem1>.img1{
-    border-radius: 0.7em;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-
 
 .griditem2{
     height: 8.25em;
-    width: 12.25em;
-    object-fit: cover;
-}
-
-
-.griditem2>.img2{
-    border-radius: 30px;
+    width: 13.25em;
     object-fit: cover;
 }
 
 
 .griditem3{
     height: 8.25em;
-    width: 12.25em;
+    width: 13.25em;
     object-fit: cover;
 }
 
 
 .griditem4{
-    background-color: white;
+    background-color: lightgrey;
     height: 5.25em;
     width: 12.25em;
     color:black;
-    overflow: auto;
+    overflow: hidden;
     border-radius: 10px;
     font-size: 18px;
+    transition: width 0.1s, height 0.1s;
+}
+
+.griditem4:hover {
+    width: 300px;
+    height: 180px;
 }
 
 
 .griditem5{
-    background-color: white;
+    background-color: lightgrey;
     height: 5.25em;
     width: 12.25em;
     border-radius: 10px;
-    overflow: auto;
+    overflow: hidden;
     font-size: 18px;
+    transition: width 0.1s, height 0.1s;
+}
+.griditem5:hover {
+    width: 300px;
+    height: 180px;
 }
 
 
 .griditem6{
-    background-color: white;
+    background-color: lightgrey;
     height: 5.25em;
     width: 12.25em;
-    overflow: auto;
+    overflow: hidden;
     font-size: 18px;
     border-radius: 10px;
+    transition: width 0.1s, height 0.1s;
+}
+.griditem6:hover {
+    width: 300px;
+    height: 180px;
 }
 
 
@@ -162,6 +169,11 @@ h3{
     color:black;
     padding: 0.4em;
     margin-top: 0.5em;
+}
+
+.pop h1 {
+    padding-left: 470px;
+    padding-top: 70px;
 }
 
 
@@ -235,7 +247,7 @@ h3{
 
 .today{
     height: 25.753em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
     margin-top: 30px;
     border-radius: 20px;
 }
@@ -265,6 +277,21 @@ h3{
     background-color: aqua;
     height: 8.25em;
     width: 12.25em;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        width: 600px;
+    }
+    .features {
+        width: 1000px;
+    }
+    .today {
+        width: 1000px;
+    }
+    .popular {
+        width: 1000px;
+    }
 }
 
 
