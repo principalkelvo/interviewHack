@@ -25,9 +25,22 @@ body{
     background-size: cover;
     height: 90vh;
 }
+.header{
+    padding-top: 25%;
 
-
-
+}
+#head1{
+    color: black;
+    text-align: center;
+}
+.header button{
+    padding: 0.82em ;
+    width: 8em;
+    background-color: #c2a525;
+    border: none;
+    border-radius: 0.524em;
+    
+}
 
 
 
