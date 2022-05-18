@@ -11,11 +11,21 @@
     height: 18.753em;
     background-color: black;
 }
+h1{
+    text-align: center;
+    color: #c2a525;
+    padding: 3.7em;
+}
+h3{
+    color: #c2a525;
+    padding-top: 3.7em;
+}
 .grid-container1{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 50px;
-    background-color: black;
+    background-color: lightgray;
+    justify-content: space-around;
 }
 .griditem1{
     background-color: aqua;
@@ -24,6 +34,26 @@
 }
 .griditem2{
     background-color: aqua;
-    background-image: url("./assets/productimage");  
-
+    height: 8.25em;
+    width: 8.25em;
+}
+.griditem3{
+    background-color: aqua;
+    height: 8.25em;
+    width: 8.25em;
+}
+.griditem4{
+    background-color: rgb(59, 125, 156);
+    height: 8.25em;
+    width: 8.25em;
+}
+.griditem5{
+    background-color: rgb(59, 125, 156);
+    height: 8.25em;
+    width: 8.25em;
+}
+.griditem6{
+    background-color: rgb(59, 125, 156);
+    height: 8.25em;
+    width: 8.25em;
 }
