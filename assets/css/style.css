@@ -1,0 +1,40 @@
+
+*{
+    font-size: 24px;
+}
+body{
+    background-color: black;
+
+
+}
+#navbar{
+    color: #c2a525;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 10%;
+}
+#navbar ul li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+.offer {
+
+    display: flex;
+    justify-content: center;
+    
+}
+.offer button{
+    margin-left: 10%;
+    width: 30%;
+    height:50%;
+    color: brown;
+
+}
