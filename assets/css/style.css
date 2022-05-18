@@ -71,14 +71,15 @@ body{
     margin-left: 10%;
     width: 300px;
     height:300px;
-    
-    
     border:2px solid #c2a525;
+    border-radius: 30px;
+
 
 }
 .offer>button>img{
     width:250px;
-    height:200px
+    height:200px;
+    
 }
 #plan {
     color: azure;
