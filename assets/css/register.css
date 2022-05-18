@@ -89,6 +89,7 @@ body{
     border: none;
     border-bottom: .13em solid #c2a525;
     border-radius: .13em;
+    color: #c2a525;
 
     transition: all .3s;
 }
