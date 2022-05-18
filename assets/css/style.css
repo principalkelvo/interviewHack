@@ -24,14 +24,31 @@ body{
     width: 100%;
     background-size: cover;
     height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.header{
-    padding-top: 25%;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
-#head1{
-    color: black;
+
+.headerBox{
+    border-bottom: 0.232em solid black;
+    border-top: 0.233em solid black;
+    margin: 1em;
+}
+.headerBox h1{
+    color: white;
     text-align: center;
+    letter-spacing: .212em;
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+
 }
 .header button{
     padding: 0.82em ;
@@ -53,8 +70,8 @@ body{
 .offer button{
     margin-left: 10%;
     width: 300px;
-    height:200px;
-    px;
+    height:300px;
+    
     
     border:2px solid #c2a525;
 
@@ -63,6 +80,7 @@ body{
     color: azure;
     padding: 20px;
     background-color: black;
+    margin-top: 70px;
     
 }
 #package{
@@ -71,4 +89,29 @@ body{
     background-color: #c2a525;
     margin-top: 20px;
 
+
+}
+#plan button{
+    background-color: #c2a525;
+    border-radius: 10px;
+    border: none;
+}
+#package>h2{
+    color: azure;
+    text-align: center;
+   
+    text-decoration: double solid black;
+
+}
+#aboutUs{
+    color: #c2a525;
+    display: flex;
+}
+#aboutUs img{
+    padding: 40px;
+    width: 250px;
+    height:200px;
+}
+#aboutUs p{
+    padding: 40px;
 }
