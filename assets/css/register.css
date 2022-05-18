@@ -116,7 +116,6 @@ body{
     display: flex;
     place-content: center;
     width: 70%;
-    transition: all .3s;
 }
 .register .button button{
     background: #000;
@@ -129,11 +128,22 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all .3s;
+
     /* font-size: .8em; */
 }
 .register .login .button button{
-    background: #c2a525;
-   
+    background: #c2a525;   
+    color: #000;    
+}
+.register .button button:hover{
+    border: 2px solid #000;
+    background:none;
     color: #000;
-    
+}
+.register .login .button button:hover,
+.register .login .button button:active{
+    border: 2px solid #c2a525;
+    background:none;
+    color: #c2a525;
 }
