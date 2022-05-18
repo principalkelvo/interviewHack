@@ -53,12 +53,22 @@ body{
 .offer button{
     margin-left: 10%;
     width: 300px;
-    height:200
+    height:200px;
     px;
     
     border:2px solid #c2a525;
 
 }
-#plan p{
+#plan {
     color: azure;
+    padding: 20px;
+    background-color: black;
+    
+}
+#package{
+    display: flex;
+    justify-content: center;
+    background-color: #c2a525;
+    margin-top: 20px;
+
 }
