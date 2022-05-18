@@ -113,7 +113,13 @@ body{
     padding: 40px;
     width: 250px;
     height:200px;
+    border-radius: 30px;
 }
 #aboutUs p{
     padding: 40px;
+}
+#us{
+    color: azure;
+    text-align: center;
+    border-top: 3px white;
 }
