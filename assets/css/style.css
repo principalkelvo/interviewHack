@@ -53,8 +53,12 @@ body{
 .offer button{
     margin-left: 10%;
     width: 300px;
-    height:200px;
+    height:200
+    px;
     
     border:2px solid #c2a525;
 
+}
+#plan p{
+    color: azure;
 }
