@@ -80,7 +80,8 @@ body{
     color: azure;
     padding: 20px;
     background-color: black;
-    margin-top: 70px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     
 }
 #package{
@@ -106,6 +107,7 @@ body{
 #aboutUs{
     color: #c2a525;
     display: flex;
+    margin-bottom: 20px;
 }
 #aboutUs img{
     padding: 40px;
