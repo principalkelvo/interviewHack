@@ -11,6 +11,11 @@ body{
     font-family: 'Inter';
 }
 
+.aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /* Features section starts here */
 .features{
@@ -131,6 +136,12 @@ img:hover {
     width: 300px;
     height: 180px;
 }
+.section {
+    height:500px;
+    width: 300px;
+    margin-left: 10px;
+    background-color: gold;
+}
 
 
 /* Popular section starts here */
@@ -160,6 +171,11 @@ img:hover {
     margin-right: 35%;
     border-style: inset;
     border-width: 3px;
+}
+.section1 {
+    height:500px;
+    width: 300px;
+    margin-left: 10px;
 }
 
 
@@ -260,6 +276,12 @@ img:hover {
     color: #c2a525;
 }
 
+.section2 {
+    height:500px;
+    width: 300px;
+    margin-left: 10px;
+}
+
 
 
 
@@ -279,7 +301,7 @@ img:hover {
     width: 12.25em;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
     body {
         width: 600px;
     }
