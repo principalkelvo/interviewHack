@@ -3,4 +3,27 @@
     margin: 0;
     padding: 0;
     font-size: 24px;
+    font-family: 'Inter';
+}
+#sectheader{
+    display: flex;
+    flex-direction: row;
+    height: 18.753em;
+    background-color: black;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    background-color: black;
+}
+.griditem1{
+    background-color: aqua;
+    height: 8.25em;
+    width: 8.25em;
+}
+.griditem2{
+    background-color: aqua;
+    background-image: url("./assets/productimage");  
+
 }
