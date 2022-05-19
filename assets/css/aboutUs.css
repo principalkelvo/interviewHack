@@ -7,6 +7,58 @@
 body{
     background-color: #000;
 }
+
+#navbar{
+    color: #c2a525;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 10%;
+}
+#navbar ul li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+.hero{
+    background-image: url("/assets/aboutUs_images/bg-image.png");
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.headerBox{
+    border-bottom: 0.232em solid black;
+    border-top: 0.233em solid black;
+    margin: 1em;
+}
+.headerBox h1{
+    color: white;
+    text-align: center;
+    letter-spacing: .212em;
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+
+}
+.header button{
+    padding: 0.82em ;
+    width: 8em;
+    background-color: #c2a525;
+    border: none;
+    border-radius: 0.524em;
+    
+}
 .abtUs{
     color: #c2a525;
     text-align: center;
@@ -18,7 +70,7 @@ body{
     height: .5em;
     position: absolute;
     left: 40%;
-    top: 20;
+    top: 25em;
     border-radius: 3em;
 }
 #abtUs > h1{
@@ -69,6 +121,10 @@ body{
 }
 .desc > img{
     height: 10em;
+    border-radius: 2em;
+}
+#img2{
+    background-color: white;
 }
 #name{
     text-align: left;
