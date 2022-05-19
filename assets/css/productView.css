@@ -9,6 +9,25 @@
 
 .product{
     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+.assessment{
+    display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
 }
+
+.assessment .contentImage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.assessment .contentImage .image{
+    width:4em;
+    height:4em;
+    border: 2px solid black;
+}
+
