@@ -14,12 +14,13 @@ body{
 
 #navbar{
     color: #c2a525;
-    background-color: black;
+    background-color: rgb(26, 23, 23);
     
 }
 #navbar ul{
     display: flex;
     margin-left: 10%;
+    color: #c2a525;
    
 }
 #navbar ul li{
@@ -27,6 +28,23 @@ body{
     margin-left: 10%;
     text-decoration:none;
 }
+#navbar ul li a{
+    text-decoration: none;
+    color: #c2a525;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    transition: ease-out;
+    border-radius: 10px;
+}
+
+a.home .ab .pro:hover{
+    text-decoration: none;
+    background-color: green;
+}
+
+
+
 .hero{
     background-image: url(../productimages/bg-image.png);
     width: 100%;
