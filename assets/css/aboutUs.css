@@ -23,7 +23,7 @@ body{
 }
 
 #navbar ul li:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #c2a525;
 }
 #navbar ul li a{
     text-decoration: none;
