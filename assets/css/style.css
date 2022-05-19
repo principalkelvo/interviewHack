@@ -98,33 +98,18 @@ body{
 #plan {
     color: azure;
     padding: 0.83em;
-    background-color: rgb(207, 86, 86);
-    margin-top: 3.33em;
-    margin-bottom: 40px;   
-}
-#plan2{
-    color: azure;
-    padding: 0.83em;
-    background-color: rgb(114, 106, 106);
-    margin-top: 3.33em;
-    margin-bottom: 40px;
-    
-}
-#plan3 {
-    color: azure;
-    padding: 0.83em;
     background-color: black;
     margin-top: 3.33em;
-    margin-bottom: 1.66em;
-    
+    margin-bottom: 1.6em; 
+    border-radius: 1.1em;  
 }
+
 
 #package{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #c2a525;
     margin-top: 0.83em;
-   
 
 
 }
@@ -133,11 +118,14 @@ body{
     border-radius: 10px;
     border: none;
 }
-#package>h2{
-    color: azure;
+#plan1{
+    background-color: #c2a525;
+    
+}
+#planHead{
+    color:azure;
     text-align: center;
-   
-    text-decoration: double solid black;
+    padding-top: 1.3em;
 
 }
 #aboutUs{
@@ -153,6 +141,7 @@ body{
 }
 #aboutUs p{
     padding: 40px;
+    line-height: 20px;
 }
 #us{
     color: azure;
