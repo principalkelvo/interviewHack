@@ -45,7 +45,6 @@ justify-content: center;
     height: 0.224em;
     background-color: #c2a525;
     top: 0;
-
 }
 /* product */
 .product{
@@ -60,15 +59,14 @@ justify-content: center;
 /* product image */
 .product .image{
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .product .image .imageContent{
     width: 50%;
-    margin: 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .product .image .imageContent img{
