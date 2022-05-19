@@ -250,6 +250,9 @@ img:hover {
 
 }
 
+.trend{
+    color:#c2a525;
+}
 
 
 .popular>h1{
@@ -342,6 +345,9 @@ img:hover {
     background-color: rgba(0, 0, 0, 0.801);
     margin-top: 10px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
