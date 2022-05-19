@@ -58,8 +58,17 @@ body{
     border: none;
     border-radius: 0.524em;
     
+    
 }
-
+a:link{
+    color: #c2a525;
+}
+a:hover{
+    color: azure;
+}
+/* a:visited{
+    color: #867f5c;
+} */
 
 
 .offer {
