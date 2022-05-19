@@ -20,13 +20,15 @@ body{
 #navbar ul{
     display: flex;
     margin-left: 10%;
+   
 }
 #navbar ul li{
     list-style-type: none;
     margin-left: 10%;
+    text-decoration:none;
 }
 .hero{
-    background-image: url(/assets/productimages/bg-image.png);
+    background-image: url(../productimages/bg-image.png);
     width: 100%;
     background-size: cover;
     height: 90vh;
