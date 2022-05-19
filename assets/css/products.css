@@ -67,6 +67,17 @@ body{
 
 
 /* Features section starts here */
+.aside>.features>.feat::before{
+    content: "";
+    background-color: #c2a525;
+    width: 10em;
+    height: 0.5em;
+    position: absolute;
+    left: 40%;
+    margin-top: 20;
+    border-radius: 3em;
+    align-items: center;
+}
 .aside {
     display: flex;
     flex-direction: row;
@@ -96,19 +107,7 @@ body{
     justify-content: space-around;
 }
 
-.features>hr{
-    color: #c2a525;
-    display: block;
-    margin-top: 1.7em;
-    margin-bottom: 0.4em;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-style: inset;
-    border-width: 3px;
-}
-
-
-.features>h1{
+.aside>.features.feat>h1{
     text-align: center;
     color: #c2a525;
     padding: 0.5em;
@@ -384,6 +383,17 @@ img:hover {
     background-color: aqua;
     height: 8.25em;
     width: 12.25em;
+}
+.today>.tod::before{
+    content: "";
+    background-color:#c2a525;
+    width: 10em;
+    height: 0.5em;
+    position: absolute;
+    left: 40%;
+    margin-top: 20;
+    border-radius: 3em;
+    align-items: center;
 }
 
 @media only screen and (max-width:800px) {
