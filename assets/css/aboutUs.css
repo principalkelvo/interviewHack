@@ -19,6 +19,16 @@ body{
 #navbar ul li{
     list-style-type: none;
     margin-left: 10%;
+    cursor: pointer;
+}
+
+#navbar ul li:hover{
+    border-bottom: 2px solid red;
+}
+#navbar ul li a{
+    text-decoration: none;
+    outline: none;
+    color:#c2a525;
 }
 .hero{
     background-image: url("../aboutUs_images/bg-image.png");
