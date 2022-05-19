@@ -1,6 +1,7 @@
 
 *{
     font-size: 24px;
+    font-family: 'Inter',sans-serif;
 }
 body{
     background-color: black;
@@ -67,50 +68,62 @@ body{
     justify-content: center;
     
 }
+#specialOffer{
+    border-bottom: 0.232em solid #c2a525;
+    border-top: 0.233em solid black;
+    margin: 1em;
+    
+}
 .offer button{
     margin-left: 10%;
-    width: 300px;
-    height:300px;
+    width: 12.5em;
+    height:12.5em;
     border:4px solid #c2a525;
     border-radius: 30px;
+    
 
 
 }
 .offer>button>img{
-    width:250px;
-    height:200px;
+    width:10.4em;
+    height:8.4em;
+    border-radius: 1.25em 1.25em 0 0;
+    margin-top: 0.83em;
     
+}
+#htwo{
+    color:#c2a525; 
+    text-align:center
 }
 #plan {
     color: azure;
-    padding: 20px;
+    padding: 0.83em;
     background-color: rgb(207, 86, 86);
-    margin-top: 80px;
-    margin-bottom: 40px;
-
-    
+    margin-top: 3.33em;
+    margin-bottom: 40px;   
 }
 #plan2{
     color: azure;
-    padding: 20px;
+    padding: 0.83em;
     background-color: rgb(114, 106, 106);
-    margin-top: 80px;
+    margin-top: 3.33em;
     margin-bottom: 40px;
     
 }
 #plan3 {
     color: azure;
-    padding: 20px;
+    padding: 0.83em;
     background-color: black;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 3.33em;
+    margin-bottom: 1.66em;
     
 }
+
 #package{
     display: flex;
     justify-content: center;
     background-color: #c2a525;
-    margin-top: 20px;
+    margin-top: 0.83em;
    
 
 
