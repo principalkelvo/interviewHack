@@ -66,6 +66,7 @@ body{
 
     display: flex;
     justify-content: center;
+    padding-bottom: 1.6em;
     
 }
 #specialOffer{
@@ -80,9 +81,7 @@ body{
     height:12.5em;
     border:4px solid #c2a525;
     border-radius: 30px;
-    
-
-
+  
 }
 .offer>button>img{
     width:10.4em;
@@ -109,7 +108,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #c2a525;
-    margin-top: 0.83em;
+    margin-top: 0em;
 
 
 }
@@ -125,7 +124,7 @@ body{
 #planHead{
     color:azure;
     text-align: center;
-    padding-top: 1.3em;
+    padding-top: 1.0em;
 
 }
 #aboutUs{
@@ -141,7 +140,7 @@ body{
 }
 #aboutUs p{
     padding: 40px;
-    line-height: 20px;
+    line-height: 1.5em;
 }
 #us{
     color: azure;
