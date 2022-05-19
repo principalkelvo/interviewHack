@@ -60,6 +60,10 @@ body{
     
     
 }
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
 a:link{
     color: #c2a525;
 }
