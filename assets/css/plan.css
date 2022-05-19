@@ -1,0 +1,23 @@
+#package{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c2a525;
+    margin-top: 0em;
+
+
+}
+#plan button{
+    background-color: #c2a525;
+    border-radius: 0.41em;
+    border: none;
+}
+#plan1{
+    background-color: #c2a525;
+    
+}
+#planHead{
+    color:black;
+    text-align: center;
+    padding-top: 1.0em;
+
+}

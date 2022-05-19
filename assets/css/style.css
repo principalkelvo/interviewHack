@@ -57,9 +57,14 @@ body{
     background-color: #c2a525;
     border: none;
     border-radius: 0.524em;
-    
+    font-weight: 600;    
     
 }
+
+button:hover{
+    cursor: pointer;
+}
+
 a{
     cursor: pointer;
     text-decoration: none;
