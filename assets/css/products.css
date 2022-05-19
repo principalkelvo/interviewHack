@@ -20,13 +20,15 @@ body{
 #navbar ul{
     display: flex;
     margin-left: 10%;
+   
 }
 #navbar ul li{
     list-style-type: none;
     margin-left: 10%;
+    text-decoration:none;
 }
 .hero{
-    background-image: url(/assets/productimages/bg-image.png);
+    background-image: url(../productimages/bg-image.png);
     width: 100%;
     background-size: cover;
     height: 90vh;
@@ -248,6 +250,9 @@ img:hover {
 
 }
 
+.trend{
+    color:#c2a525;
+}
 
 
 .popular>h1{
@@ -340,6 +345,9 @@ img:hover {
     background-color: rgba(0, 0, 0, 0.801);
     margin-top: 10px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
