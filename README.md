@@ -1,4 +1,4 @@
-# Moringa landing page
+# Interview Hack page
 ***
 ## Creator :man_technologist:
 Moringa Landing Page was created and is maintained by **Kelvin Njoro** **Loretta Dhahabu** **Judy Mwai** and **Geoffrey Njihia**
