@@ -1,18 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+}
+body{
+    background-color: black;
+
+
+}
+#navbar{
+    color: #c2a525;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 10%;
+}
+#navbar ul li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+.hero{
+    background-image: url(../image/bg-image.png);
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.headerBox{
+    border-bottom: 0.232em solid black;
+    border-top: 0.233em solid black;
+    margin: 1em;
+}
+.headerBox h1{
+    color: white;
+    text-align: center;
+    letter-spacing: .212em;
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+
+}
+.header button{
+    padding: 0.82em ;
+    width: 8em;
+    background-color: #c2a525;
+    border: none;
+    border-radius: 0.524em;
+    font-weight: 600;    
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #c2a525;
+}
+
+a:hover{
+    border-bottom: 2px solid #c2a525;
+}
+
 #package{
     display: flex;
     justify-content: space-around;
-    background-color: #c2a525;
+    background-color: #000;
     margin-top: 0em;
 
 
 }
-#plan button{
+
+#plan {
+    color: azure;
+    padding: 0.83em;
     background-color: #c2a525;
+    margin-top: 3.33em;
+    margin-bottom: 1.6em; 
+    border-radius: 1.1em;  
+}
+
+#plan button{
+    background-color: #000;
     border-radius: 0.41em;
     border: none;
+    padding: .4em .5em;
+    color: #c2a525;
 }
 #plan1{
-    background-color: #c2a525;
+    background-color: #000;
     
 }
 #planHead{

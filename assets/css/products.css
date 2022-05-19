@@ -3,14 +3,19 @@
     margin: 5px;
     padding: 0;
     font-family: 'Inter',sans-serif;
+    font-size: 24px;
+
 }
 
 
 
 body{
-    font-size: 24px;
     font-family: 'Inter';
+    /* background-color: black; */
+
 }
+
+
 
 #navbar{
     color: #c2a525;
@@ -66,6 +71,15 @@ body{
     border-radius: 0.524em;
     
 }
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #c2a525;
+}
+
+a:hover{
+    border-bottom: 2px solid #c2a525;
+}
 
 
 /* Features section starts here */
@@ -76,7 +90,6 @@ body{
     height: 0.5em;
     position: absolute;
     left: 40%;
-    margin-top: 20;
     border-radius: 3em;
     align-items: center;
 }

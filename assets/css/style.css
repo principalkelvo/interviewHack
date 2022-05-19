@@ -198,6 +198,9 @@ a:hover{
     border-radius: 0.83em;
     margin: 0.125em;
     padding: 0.41em;
+    background:none;
+    border: none;
+    border-bottom:3px solid black;
 
 }
 #text{

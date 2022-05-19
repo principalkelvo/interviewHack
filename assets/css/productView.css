@@ -63,6 +63,16 @@ body{
     
 }
 
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #c2a525;
+}
+
+a:hover{
+    border-bottom: 2px solid #c2a525;
+}
+
 /* product view */
 .productView{
     width: 100%;
