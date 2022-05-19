@@ -216,7 +216,7 @@ img:hover {
 .popular{
     height: 25.753em;
     background-color: #c2a525;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 20px;
 }
 .popular > .pop::before{
@@ -241,10 +241,12 @@ img:hover {
     border-style: inset;
     border-width: 3px;
 }
-.section1 {
-    height:500px;
+.section {
+    height:350px;
     width: 300px;
     margin-left: 10px;
+    border-radius: 20px;
+
 }
 
 
@@ -310,7 +312,7 @@ img:hover {
 
 
 .griditem24{
-    background-color: lightgray);
+    background-color: lightgray;
     height: 7.25em;
     width: 12.25em;
 }
@@ -337,7 +339,7 @@ img:hover {
 .today{
     height: 25.753em;
     background-color: rgba(0, 0, 0, 0.801);
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 20px;
 }
 
