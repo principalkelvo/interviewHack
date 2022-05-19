@@ -134,7 +134,7 @@ a:hover{
     
 }
 #planHead{
-    color:azure;
+    color:black;
     text-align: center;
     padding-top: 1.0em;
 
@@ -155,7 +155,7 @@ a:hover{
     line-height: 1.5em;
 }
 #us{
-    color: azure;
+    color: #c2a525;
     text-align: center;
     border-top: 3px white;
 }
