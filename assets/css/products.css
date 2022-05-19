@@ -11,25 +11,87 @@ body{
     font-family: 'Inter';
 }
 
+#navbar{
+    color: #c2a525;
+    background-color: black;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 10%;
+}
+#navbar ul li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+.hero{
+    background-image: url(/assets/productimages/bg-image.png);
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.headerBox{
+    border-bottom: 0.232em solid black;
+    border-top: 0.233em solid black;
+    margin: 1em;
+}
+.headerBox h1{
+    color: white;
+    text-align: center;
+    letter-spacing: .212em;
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+
+}
+.header button{
+    padding: 0.82em ;
+    width: 8em;
+    background-color: #c2a525;
+    border: none;
+    border-radius: 0.524em;
+    
+}
+
+
+/* Features section starts here */
 .aside {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* Features section starts here */
 .features{
     height: 25.753em;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.733);
     border-radius: 20px;
+    align-items: center;
 }
 
-
+.icons {
+    opacity: 2;
+}
+.icons i {
+    color: rgb(226, 226, 240);
+    padding: 20px;
+    justify-content: space-around;
+}
 
 .features>hr{
-    color:#c2a525;
+    color: #c2a525;
     display: block;
     margin-top: 1.7em;
     margin-bottom: 0.4em;
@@ -160,6 +222,7 @@ img:hover {
     left: 40%;
     margin-top: 20;
     border-radius: 3em;
+    align-items: center;
 }
 
 
@@ -168,7 +231,7 @@ img:hover {
     display: block;
     margin-bottom: 0.4em;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 50%;
     border-style: inset;
     border-width: 3px;
 }
@@ -186,9 +249,13 @@ img:hover {
     padding: 0.4em;
     margin-top: 0.5em;
 }
+.hr {
+    padding-right: 800x;
+    align-items: center;
+}
 
 .pop h1 {
-    padding-left: 470px;
+    padding-left: 380px;
     padding-top: 70px;
 }
 
@@ -282,7 +349,17 @@ img:hover {
     margin-left: 10px;
 }
 
-
+.aside>.feat::before{
+    content: "";
+    background-color: black;
+    width: 10em;
+    height: 0.5em;
+    position: absolute;
+    left: 40%;
+    margin-top: 20;
+    border-radius: 3em;
+    align-items: center;
+}
 
 
 .grid-container3{
