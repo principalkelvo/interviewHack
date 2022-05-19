@@ -81,6 +81,10 @@ a:hover{
     border-bottom: 2px solid #c2a525;
 }
 
+.grid-container1 a:hover{
+    border: none;
+}
+
 
 /* Features section starts here */
 .aside>.features>.feat::before{
