@@ -8,6 +8,7 @@ body{
     background-color: #000;
 }
 
+
 #navbar{
     color: #c2a525;
     
@@ -92,7 +93,7 @@ body{
 
 /*Our Team section styling*/
 .one{
-    height: 24em;
+    height: 100vh;
     width: 100vw;
     color: #c2a525;
     background-color: #000;
@@ -127,11 +128,23 @@ body{
 }
 #teamImages{
     display: flex;
-    margin-left: 5em;
+    margin: 1em;
+
 }
-.desc > img{
+.desc > .images{
     height: 10em;
-    border-radius: 2em;
+    width: 10em;
+}
+.desc{
+    margin: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.images img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
 }
 #img2{
     background-color: white;
@@ -146,7 +159,7 @@ body{
 }
 /*Our Clients section styling*/
 .two{
-    height: 10em;
+    height: 15em;
     width: 100vw;
     color: #000;
     background-color: #c2a525;
@@ -259,7 +272,14 @@ body{
     justify-content: space-between;
     margin: 2em 1em;
 }
-
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin : 1em 2em;
+}
+.icons i{
+    font-size: 3em;
+}
 @media only screen and (max-width:1024px){
     *{
         font-size: 16px;
