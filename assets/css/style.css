@@ -86,11 +86,64 @@ a:hover{
     padding-bottom: 1.6em;
     
 }
-#specialOffer{
+/* #specialOffer{
     border-bottom: 0.232em solid #c2a525;
     border-top: 0.233em solid black;
     margin: 1em;
     
+} */
+#htwo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+#htwo.dark{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#htwo h2{
+    color: #c2a525;
+    text-align: center;
+    letter-spacing: .212em;
+    margin-top: 1.5em;
+
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+}
+#htwo.dark h2{
+    color: black;
+    text-align: center;
+    letter-spacing: .212em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    -webkit-text-stroke: .011em black;
+}
+
+#htwo h2::before{
+    content: "";
+    position: absolute;
+    width: 10em;
+    height: .5em;
+    top: 0;
+    border-radius: 0.313em;
+    background-color: #c2a525;
+
+    margin-top: .5em;
+    left: 42%;
+}
+
+#htwo.dark h2::before{
+    content: "";
+    position: absolute;
+    width: 10em;
+    height: .5em;
+    top: 0;
+    border-radius: 0.313em;
+    background-color: black;
+    margin-top: .5em;
+    left: 42%;
 }
 .offer button{
     margin-left: 10%;
@@ -109,7 +162,7 @@ a:hover{
 }
 #htwo{
     color:#c2a525; 
-    text-align:center
+    text-align:center;
 }
 #plan {
     color: azure;

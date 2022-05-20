@@ -63,7 +63,7 @@ register.addEventListener('click', function () {
     var passwordValidate = password.value;
     var password2Validate = password2.value;
     if (!validateEmail(emailValidate)) {
-        emailField.style.borderColor = "red";
+        email.style.borderColor = "red";
         alert("Email is not valid");
     } else {
         console.log("Email is valid");
