@@ -212,3 +212,14 @@ a:hover{
     background:none;
     color: #c2a525;
 }
+
+@media only screen and (max-width:768px){
+    *{
+        font-size: 15px;
+    }
+    .register{
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+    }
+}
